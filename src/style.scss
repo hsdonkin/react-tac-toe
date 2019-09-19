@@ -1,0 +1,38 @@
+.board-row {
+  display: inline-block;
+  min-height: 12rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.tile {
+  display: inline-block;
+  position: inherit;
+  top: 0;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  min-height: 10rem;
+  min-width: 10rem;
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.marker {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.marker h3 {
+  display: inline-block;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 4rem;
+}
+
+.hidden {
+  display: none;
+}
